@@ -12,9 +12,28 @@ void CreateBoard() //function to create board
   
 }
 
+void DisplayBoard() //function to display the board
+{
+    //init our row, col, and 2d vector
+    int row = 3;
+    int col = 3;
+        
+    std::vector<std::vector<int> > vec(row, std::vector<int> (col, 0));
+
+    for(int i = 0; i < 3; i++) //iterate through rows
+    {
+        for(int j = 0; j < 3; j++) //iterate through cols
+        {
+            std::cout << vec[i][j] << " "; //print our board
+        }
+        std::cout << std::endl;
+    }
+}
+
 
 int main()
 {
     CreateBoard();
+    DisplayBoard();
 
 }
