@@ -30,10 +30,22 @@ void DisplayBoard() //function to display the board
     }
 }
 
+int GetPlayerChoice() //function to take player input
+{
+    int input;
+
+        std::cout << "Where would you like to mark?: ";
+        std::cin >> input;
+        std::cout << input << std::endl;
+
+    
+    return input;
+    }
 
 int main()
 {
     CreateBoard();
     DisplayBoard();
+    GetPlayerChoice();
 
 }
