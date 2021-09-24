@@ -15,7 +15,7 @@ std::vector<std::vector<int> > CreateBoard() //function to create board
 void DisplayBoard(std::vector<std::vector<int> > vec){
     for(int i = 0; i < vec.size(); i++){
         for(int j = 0; j < vec.size(); j++){
-            std::cout << vec[i][j];
+            std::cout << vec[i][j] << " ";
         }
         std::cout << std::endl;
        
@@ -28,4 +28,7 @@ int main(){
     std::vector<std::vector<int> > vec = CreateBoard();
 
     DisplayBoard(vec);
+
+    std::cout << "Welcome to TicTacToe" << std::endl;
+    
 }
