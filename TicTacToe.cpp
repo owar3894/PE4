@@ -22,10 +22,23 @@ void DisplayBoard(std::vector<std::vector<int> > vec){
     }
 }
 
+int GetPlayerChoice() //function to take player input
+{
+    int input;
+
+        std::cout << "Where would you like to mark?: ";
+        std::cin >> input;
+        std::cout << input << std::endl;
+
+    
+    return input;
+}
+
 
 int main(){
 
     std::vector<std::vector<int> > vec = CreateBoard();
 
     DisplayBoard(vec);
+    GetPlayerChoice();
 }
