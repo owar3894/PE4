@@ -1,0 +1,26 @@
+0 0 0 
+0 0 0 
+0 0 0 
+Where would you like to mark?: 1
+1 2 0 
+0 0 0 
+0 0 0 
+Where would you like to mark?: 2
+Cannot choose this location
+Where would you like to mark?: 3
+1 2 1 
+0 2 0 
+0 0 0 
+Where would you like to mark?: 4
+1 2 1 
+1 2 2 
+0 0 0 
+Where would you like to mark?: 5
+Cannot choose this location
+Where would you like to mark?: 6
+Cannot choose this location
+Where would you like to mark?: 7
+1 2 1 
+1 2 2 
+1 0 0 
+Game Over!
