@@ -30,7 +30,7 @@ int GetPlayerChoice() //function to take player input
         std::cin >> input;
         std::cout << input << std::endl;
 
-    
+    //each time this function is called, iterate turn_count, when turn_count reaches 9 turns, stop the game.
     return input;
 }
 
